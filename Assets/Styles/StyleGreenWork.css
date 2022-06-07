@@ -1,0 +1,259 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 60px;
+   
+}
+
+nav img {
+    margin: 30px 30px 5px;
+}
+
+ul li a {
+    
+    text-decoration: none;
+    margin-right: 30px;
+    padding: 20px;
+    color: darkgreen;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 18px;
+
+}
+
+a:hover {
+    background-color: whitesmoke;
+    border-radius: 10px;
+    
+
+}
+
+.Logo {
+    width: 100px;
+}
+
+.HeaderImg {
+    background-image: linear-gradient(0deg, rgba(0, 0, 1, 0.9), rgba(0, 0, 0, 0.5)), url(../imagenes/Experiencia\ GreenWork.jpg);
+    height: 600px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 20px;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.HeaderImg h2 {
+    margin-bottom: 10px;
+    padding: 15px;
+    border-radius: 10px;
+    background: rgba( 0, 0, 0, 0.65 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 17px );
+    -webkit-backdrop-filter: blur( 17px );
+    border-radius: 10px;
+
+}
+
+.HeaderImg p {
+    text-align: center;
+    padding: 0 80px;
+}
+
+.PersonalAreas {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: justify;
+
+
+}
+
+.PersonalAreas h3 {
+   padding: 10px 30px;
+   font-size: 20px;
+   color: darkgreen;
+    
+}
+
+.PersonalAreas p {
+    padding: 10px 30px 30px 30px;
+    font-size: medium;
+
+}
+
+.personalInfo {
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.pesonalImgs {
+padding-left: 30px;
+padding-right: 30px;
+display: flex;
+justify-content: baseline;
+
+}
+
+.pesonalImgs img {
+    width: 120px;
+    
+
+
+}
+
+.pesonalImgs img:hover {
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+    
+
+}
+
+.Spaces {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 60px;
+}
+
+.Spaces img {
+    width: 840px;
+}
+
+.SpacesInfo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: right;
+    justify-content: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+
+}
+
+.SpacesInfo h3 {
+    padding: 10px 30px;
+    font-size: 40px;
+    color: darkgreen;
+}
+
+.SpacesInfo div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: center;
+    background: rgba( 245, 245, 245, 0.55 );
+    box-shadow: 0 6px 20px 0 rgba(137, 173, 155, 0.37);
+    backdrop-filter: blur( 3px );
+    -webkit-backdrop-filter: blur( 3px );
+    border-radius: 0px 0px 0px 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+
+}
+
+.SpacesInfo div p {
+    display: flex;
+    justify-content: center;
+    padding: 10px 30px 10px 20px;
+    font-size: medium;
+    text-align: justify;
+    
+}
+
+.SpacesInfo div input {
+    margin: 0px 30px 10px 0px;
+    padding: 10px;
+    border-radius: 4px;
+    background-color: darkgreen;
+    color: white;
+    cursor: pointer;
+}
+
+.Foods {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: right;
+    justify-content: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 40px;
+}
+
+.Foods h3 {
+    padding: 10px 30px;
+    font-size: 40px;
+    color: darkgreen;
+}
+
+.FoodImg {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+margin: 30px;
+height: 400px;
+width: 100%;
+
+}
+
+.Foods div img {
+    width: 430px;
+    object-fit: cover;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 40px;
+    background-color: dark;
+}
+
+.FooterInfo {
+    margin-left: 20px;
+
+}
+
+.FooterInfo a {
+    text-decoration: none;
+    color: darkgreen;
+    padding: 10px;
+}
+
+.FooterSocial {
+    margin-right: 40px;
+}
+
+.FooterSocial img {
+    width: 40px;
+    padding-top: 20px;
+}
+
+.FooterLogo {
+    width: 100px;
+}
+
+.Legal {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    font-size: small;
+}
